@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>rgb game</title>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="rgb">
+        <p>The Great</p>
+        <p id="rgb"></p>
+        <p>Guessing Game</p>
+      </div>
+      <div id="settings">
+        <p id="new">new colors</p>
+        <p id="result"></p>
+        <ul id="settings-diffculty">
+          <li>easy</li>
+          <li>medium</li>
+          <li>hard</li>
+        </ul>
+      </div>
+      <div class="displayCircles">
+        <div id="easy">
+          <div class="circle">
+          </div>
+          <div class="circle">
+          </div>
+          <div class="circle">
+          </div>
+        </div>
+        <div id="medium" class="not-active">
+          <div class="circle">
+          </div>
+          <div class="circle">
+          </div>
+          <div class="circle">
+          </div>
+        </div>
+        <div id="hard" class="not-active">
+          <div class="circle">
+          </div>
+          <div class="circle">
+          </div>
+          <div class="circle">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
