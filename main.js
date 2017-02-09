@@ -8,8 +8,6 @@ var hard = document.getElementById("hard");
 var done = false;
 var diffculty = 0;
 
-
-
 function circleColor () {
   var r = Math.floor(Math.random() * 255);
   var g = Math.floor(Math.random() * 255);
