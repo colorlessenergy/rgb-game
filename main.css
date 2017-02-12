@@ -10,6 +10,10 @@ html, body {
   border-radius: 50%;
 }
 
+.container {
+  height: 100%;
+}
+
 .displayCircles {
   background-color: black;
   height: 100%;
